@@ -1,0 +1,50 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CreateCommand	src/commands/add.js	/^class CreateCommand extends Command {$/;"	C
+choices	src/commands/add.js	/^    choices: templateTypes(),$/;"	P
+default	src/commands/add.js	/^          default: fileName,$/;"	P
+default	src/commands/add.js	/^          default: suggestedDirectory,$/;"	P
+destinationDirectory	src/commands/add.js	/^      destinationDirectory: args.destinationDirectory || flags.destinationDirectory,$/;"	P
+duplicate	src/utils/files.js	/^function duplicate(existingFilePath, newFilePath, newFileName, templateVars) {$/;"	F
+enabled	src/commands/add.js	/^        enabled: () => Array.isArray(hooks),$/;"	P
+fileName	src/commands/add.js	/^      fileName = await promptForNewFileName()$/;"	P
+fileName	src/commands/add.js	/^      fileName: args.fileName || flags.fileName,$/;"	P
+fileName	src/commands/add.js	/^  fileName: flags.string({char: 'n', description: 'File Name'}),$/;"	P
+getCommandArguments	src/commands/add.js	/^  getCommandArguments() {$/;"	M
+getFileExtension	src/utils/files.js	/^function getFileExtension(filePath) {$/;"	F
+hooks	tewt-rc.js	/^      hooks: [$/;"	P
+makeDir	src/utils/files.js	/^function makeDir(dir) {$/;"	F
+message	src/commands/add.js	/^          message: 'Confirm File Directory:',$/;"	P
+message	src/commands/add.js	/^          message: 'Confirm File Name:',$/;"	P
+message	src/commands/add.js	/^    message: 'Create File From Template:',$/;"	P
+message	src/commands/add.js	/^    message: 'New File Name:',$/;"	P
+name	src/commands/add.js	/^          name: 'confirmedName',$/;"	P
+name	src/commands/add.js	/^          name: 'confirmedPath',$/;"	P
+name	src/commands/add.js	/^    name: 'fileName',$/;"	P
+name	src/commands/add.js	/^    name: 'templateType',$/;"	P
+projectName	tewt-rc.js	/^  projectName: 'TEWT Test Project',$/;"	P
+promptForNewFileName	src/commands/add.js	/^const promptForNewFileName = () => new Promise(async resolve => {$/;"	F
+promptForTemplateType	src/commands/add.js	/^const promptForTemplateType = () => new Promise(async resolve => {$/;"	F
+read	src/utils/files.js	/^function read(filePath) {$/;"	F
+regExp	src/utils/files.js	/^    const regExp = new RegExp(`${key}`, 'g')$/;"	V
+suggestedDirectory	tewt-rc.js	/^      suggestedDirectory: 'app\/components',$/;"	P
+suggestedDirectory	tewt-rc.js	/^      suggestedDirectory: 'app\/pages',$/;"	P
+tasks	src/commands/add.js	/^    const tasks = new Listr([$/;"	V
+templateName	src/commands/add.js	/^      templateName = await promptForTemplateType()$/;"	P
+templateName	src/commands/add.js	/^      templateName: args.templateName || flags.templateName,$/;"	P
+templateName	src/commands/add.js	/^  templateName: flags.string({char: 't', description: 'Template Name'}),$/;"	P
+templatePath	tewt-rc.js	/^      templatePath: 'templates\/Component.vue',$/;"	P
+templatePath	tewt-rc.js	/^      templatePath: 'templates\/Page.vue',$/;"	P
+templateTypes	src/commands/add.js	/^const templateTypes = () => Object.keys(tewtRc.templates)$/;"	F
+templateVars	src/commands/add.js	/^    const templateVars = [$/;"	A
+tewtRc	tewt-rc.js	/^const tewtRc = {$/;"	O
+title	src/commands/add.js	/^        title: 'Creating New File',$/;"	P
+title	src/commands/add.js	/^        title: 'Running Hooks',$/;"	P
+type	src/commands/add.js	/^    type: 'list',$/;"	P
+update	src/utils/files.js	/^function update(fileContent, templateVars) {$/;"	F
+updatedFileContent	src/utils/files.js	/^    updatedFileContent = updatedFileContent.replace(regExp, value)$/;"	P
+userArgs	src/commands/add.js	/^    const userArgs = {$/;"	O
